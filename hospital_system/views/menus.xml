@@ -1,0 +1,23 @@
+<odoo>
+    <menuitem id="menu_hms"
+              name="H M S"
+              web_icon="hospital_system,static/description/FB_IMG_1648112786856.png"
+    />
+
+    <menuitem id="menu_root_patient"
+              name="Patients"
+              parent="menu_hms"
+              sequence="10"
+    />
+    <menuitem id="menu_root_doctor"
+              name="Doctors"
+              parent="menu_hms"
+              sequence="20"
+              groups="hms_manager_group"
+    />
+    <menuitem id="menu_root_department"
+              name="Departments"
+              parent="menu_hms"
+              sequence="30"
+    />
+</odoo>
